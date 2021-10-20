@@ -37,7 +37,7 @@ public class Utils {
 	public static String getGlobalvalue(String key) throws IOException {
 		Properties prod = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"D:\\SeleniumWorkspace\\APIBDDFrameworkRShetty\\src\\test\\java\\resource\\globalproperties.properties");
+				"D:\\APITestingRShetty\\APIBDDFrameworkRShetty\\src\\test\\java\\resource\\globalproperties.properties");
 		prod.load(fis);
 		return prod.getProperty(key);
 
